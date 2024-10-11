@@ -1,0 +1,133 @@
+.welcome-container {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(126, 130, 130);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 200px; */
+}
+
+.services-section {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 200px; */
+}
+
+.sections {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.about-us {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 60px;
+}
+
+/* #carouselExampleIndicators {
+    display: flex;
+    align-items: center;
+    jus
+    height: 250px;
+    width: 40%;
+} */
+/* 
+.carousel-inner {
+    height: 250px;
+    width: 40%;
+} */
+
+#carouselExample{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-inner{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    height: 350px;
+    width: 80%;
+    padding: 10px 10px;
+    background-color: rgb(245, 245, 246);
+}
+
+.carousel-item {
+    text-align: center;
+    /* align-items: center; */
+    height: 80px;
+    width: 500px;
+    margin-left: 250px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+
+#footer {
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px 10px;
+    /* align-items: center; */
+}
+
+.quick-links {
+    list-style-type: none;
+}
+
+/* 
+#signup-form {
+    border: 1cap;
+    width: 30%;
+    margin: 40px auto;
+    border: 1.5px solid rgb(175, 175, 210);
+    border-radius: 1%;
+    padding: 10px;  
+    padding-right: 15px; 
+} */
+
+
+#profile-card {
+    width: 50%;
+    height: 350px;
+    margin: 10px 45px;
+    border: 1.5px solid rgb(195, 175, 239);
+}
+
+
+#edit-profile {
+    width: auto;
+}
+
+#edit-form {
+    width: 50%;
+    height: 350px;
+    margin: 10px 45px;
+    border: 1.5px solid rgb(195, 175, 239);
+}
+
+
+#edit-profile {
+    border: 1cap;
+    width: auto;
+    margin-right: 0;
+    /* margin: 40px auto; */
+    border: 1.5px solid rgb(175, 175, 210);
+    border-radius: 1%;
+    /* padding: 10px;   */
+    /* padding-right: 15px;  */
+}
