@@ -1,7 +1,7 @@
 const express = require('express');
 const userModel = require('../model/userModel');
 const jwt = require('jsonwebtoken');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 // const dotenv = require('dotenv');
 
 exports.signup = async (req, res) => {
