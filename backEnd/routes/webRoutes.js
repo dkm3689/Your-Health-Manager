@@ -41,12 +41,13 @@ webRouter.get("/dashboard", authMiddleware, (req, res) => {
   if (req.user) {
     res.sendFile(path.join(__dirname, "../../frontEnd/dashboard.html"));
   } else {
-    req.status(401).json({ message: "unauthorized" });
+    res.status(401).json({ message: "unauthorized" });
   }
 });
 
 // profile page
 webRouter.get("/profile", authMiddleware, (req, res) => {
+  console.log("inside profile web route");
   res.sendFile(path.join(__dirname, "../../frontEnd/profile.html"));
   //   res.send("Welcome to healthcare management system");
 });

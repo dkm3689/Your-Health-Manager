@@ -72,7 +72,6 @@ exports.signin = async (req, res) => {
 }
 
 
-
 exports.getUserDetail = async (req, res) => {
     console.log("console get user detail request", req.user);
     res.status(200).json({ message: `user details: ${req.user.email}`});
