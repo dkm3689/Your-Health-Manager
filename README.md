@@ -24,6 +24,13 @@
 ![Dashboard](assets/dashboard.png)  
 ![Profile Page](assets/profile.png)  
 
+## 📖 API Endpoints
+
+- **POST** `/api/auth/signup` → Register a new user  
+- **POST** `/api/auth/login` → User login  
+- **POST** `/api/posts` → Create a new post  
+- **GET** `/api/posts` → Fetch all posts  
+
 ## 🛠 Installation & Setup  
 ```bash
 git clone https://github.com/your-username/healthcare-management-system.git
@@ -31,11 +38,6 @@ cd healthcare-management-system
 npm install
 npm start
 
-## 📖 API Endpoints
 
-- **POST** `/api/auth/signup` → Register a new user  
-- **POST** `/api/auth/login` → User login  
-- **POST** `/api/posts` → Create a new post  
-- **GET** `/api/posts` → Fetch all posts  
 
 
