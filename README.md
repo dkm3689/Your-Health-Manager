@@ -1,5 +1,5 @@
-Healthcare Management System 🏥
-
+## 🏥 Healthcare Management System
+ 
 ## 🚀 Live Demo  
 [Click Here](https://hms-5i3f.onrender.com/)  
 
