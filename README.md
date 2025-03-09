@@ -1,4 +1,4 @@
-<img width="955" alt="image" src="https://github.com/user-attachments/assets/af5ec666-5536-463d-b4bd-fd0c950d706d" /># Healthcare Management System 🏥
+Healthcare Management System 🏥
 
 ## 🚀 Live Demo  
 [Click Here](https://hms-5i3f.onrender.com/)  
