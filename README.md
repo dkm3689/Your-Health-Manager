@@ -33,10 +33,9 @@ npm start
 
 ## 📖 API Endpoints
 
-| Method | Endpoint         | Description          |
-|--------|-----------------|----------------------|
-| POST   | `/api/auth/signup` | Register a new user  |
-| POST   | `/api/auth/login`  | User login          |
-| POST   | `/api/posts`       | Create a new post   |
-| GET    | `/api/posts`       | Fetch all posts     |
+- **POST** `/api/auth/signup` → Register a new user  
+- **POST** `/api/auth/login` → User login  
+- **POST** `/api/posts` → Create a new post  
+- **GET** `/api/posts` → Fetch all posts  
+
 
