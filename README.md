@@ -21,15 +21,16 @@
 ✔️ **Secure Password Handling** - Bcrypt password hashing  
 
 ## 📸 Screenshots  
-![Dashboard](assets/dashboard.png)  
-![Profile Page](assets/profile.png)  
+![Home](assets/dashboard.hms-home) 
+![Dashboard](assets/dashboard.hms-dashboard) 
+![Profile Page](assets/hms-profile)  
 
 ## 📖 API Endpoints
 
-- **POST** `/api/auth/signup` → Register a new user  
-- **POST** `/api/auth/login` → User login  
-- **POST** `/api/posts` → Create a new post  
-- **GET** `/api/posts` → Fetch all posts  
+- **POST** `/signup` → Register a new user  
+- **POST** `/login` → Authenticate user and start session  
+- **GET** `/dashboard` → Access user dashboard (requires authentication)  
+- **GET** `/profile` → Retrieve user profile details (requires authentication)  
 
 ## 🛠 Installation & Setup  
 ```bash
@@ -37,7 +38,3 @@ git clone https://github.com/your-username/healthcare-management-system.git
 cd healthcare-management-system
 npm install
 npm start
-
-
-
-
