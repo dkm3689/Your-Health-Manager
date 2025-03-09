@@ -21,9 +21,9 @@
 ✔️ **Secure Password Handling** - Bcrypt password hashing  
 
 ## 📸 Screenshots  
-![Home](assets/dashboard.hms-home) 
-![Dashboard](assets/dashboard.hms-dashboard) 
-![Profile Page](assets/hms-profile)  
+![Home](assets/dashboard.hms-home.png) 
+![Dashboard](assets/dashboard.hms-dashboard.png) 
+![Profile Page](assets/hms-profile.png)  
 
 ## 📖 API Endpoints
 
