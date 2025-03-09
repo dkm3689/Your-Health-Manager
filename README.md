@@ -1,4 +1,4 @@
-# Healthcare Management System 🏥
+<img width="955" alt="image" src="https://github.com/user-attachments/assets/af5ec666-5536-463d-b4bd-fd0c950d706d" /># Healthcare Management System 🏥
 
 ## 🚀 Live Demo  
 [Click Here](https://hms-5i3f.onrender.com/)  
@@ -30,3 +30,13 @@ git clone https://github.com/your-username/healthcare-management-system.git
 cd healthcare-management-system
 npm install
 npm start
+
+## 📖 API Endpoints
+
+| Method | Endpoint         | Description          |
+|--------|-----------------|----------------------|
+| POST   | `/api/auth/signup` | Register a new user  |
+| POST   | `/api/auth/login`  | User login          |
+| POST   | `/api/posts`       | Create a new post   |
+| GET    | `/api/posts`       | Fetch all posts     |
+
